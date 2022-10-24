@@ -1,0 +1,74 @@
+@font-face {
+  font-family: hayDarling;
+  src: url(Hay\ Darling.otf);
+  font-weight: bold;
+}
+
+body {
+  background-color: #1f1f1f;
+}
+
+.navbaritem {
+  font-family: hayDarling;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+}
+
+#nilai {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#heart {
+  display: block;
+  width: 100%;
+  animation: animateHeart 1.2s infinite;
+}
+
+@keyframes animateHeart {
+  0% {
+    transform: scale(1);
+  }
+
+  5% {
+    transform: scale(1.1);
+  }
+
+  10% {
+    transform: scale(1.2);
+  }
+
+  15% {
+    transform: scale(1.2);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
